@@ -1,0 +1,147 @@
+/* Reseteo y Colores Propios */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #F9F1E7; /* El color crema de fondo */
+    color: #4A2416;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+/* Navegación */
+nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul { display: flex; list-style: none; }
+nav li { margin-right: 25px; }
+nav a { text-decoration: none; color: #4A2416; font-weight: bold; font-size: 14px; }
+nav a:hover { color: #F5A623; }
+
+.logo-texto { font-weight: bold; font-style: italic; font-size: 20px; }
+
+/* Home / Hero */
+header {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('home-paulina.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-info h1 { font-size: 48px; margin-bottom: 15px; }
+.hero-info p { font-size: 20px; margin-bottom: 30px; }
+
+/* Botón Naranja */
+.btn-naranja {
+    background-color: #F5A623;
+    color: white;
+    padding: 16px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 0.2s;
+}
+
+.btn-naranja:hover { transform: scale(1.05); }
+
+/* Secciones */
+section { padding: 80px 20px; max-width: 1000px; margin: 0 auto; }
+h2 { font-size: 32px; margin-bottom: 20px; color: #7B3F00; text-align: center; }
+
+/* Estilo Aprendizaje */
+.contenido-flex {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.imagen-box img { width: 100%; border-radius: 8px; }
+.etiqueta-marron {
+    background-color: #7c3a20;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -5px;
+    border-radius: 0 0 8px 8px;
+}
+
+/* Invitados */
+.contenedor-invitados { margin-top: 50px; }
+.bloque-invitado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.comentario {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    width: 60%;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.circulo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+/* Formulario */
+.caja-marron {
+    background-color: #7c3a20;
+    padding: 50px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+}
+
+.caja-marron input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+}
+
+/* Footer */
+footer { background: white; padding: 60px 20px; text-align: center; }
+.footer-box { max-width: 600px; margin: 0 auto; }
+.copyright { margin-top: 20px; font-size: 12px; color: #888; }
