@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulina Cocina - Masterclass</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="barra-navegacion">
+        <div class="contenedor-nav">
+            <!-- BOTÓN MENÚ PARA MOBILE -->
+            <span class="abrir-menu" id="btn-menu">Menú</span>
+
+            <ul class="links" id="menu-links">
+                <li class="solo-mobile">Menú</li> <!-- Título decorativo dentro del menú lateral -->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#evento">Evento</a></li>
+                <li><a href="#fecha">Fecha</a></li>
+                <li><a href="#anotate">Anotate YA</a></li>
+            </ul>
+
+            <div class="marca">
+                <img src="logo.png" alt="Logo" class="logo-img">
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="seccion-home">
+    <div class="contenido-hero">
+        <!-- El título queda arriba -->
+        <h1 class="titulo-principal">Paulina Te Cocina: <br> sus secretos en vivo</h1>
+        
+        <!-- Este bloque lo empujaremos hacia abajo con CSS -->
+        <div class="bloque-inferior">
+            <p class="bajada">Masterclass Gratuita <br> Aprendé con Paulina en vivo</p>
+            <a href="#anotate" class="boton-naranja">¡Quiero mi entrada!</a>
+        </div>
+    </div>
+</section>
+
+        <!-- SECCIÓN EVENTO -->
+        <section id="evento" class="seccion-contenido">
+            <h2 class="titulo-seccion-poppins">¿Qué vamos a aprender <br> en este mano a mano?</h2>
+            
+            <div class="contenedor-kit">
+                <div class="imagen-kit">
+                    <img src="kit-regalo.png" alt="Kit de regalo Paulina">
+                </div>
+                <div class="texto-kit">
+                    <p><span class="texto-destacado">Cocina Flash</span> para gente sin tiempo</p>
+                    <p><span class="texto-destacado">Técnicas de precisión</span> con todos los detalles exactos</p>
+                    <p><span class="texto-destacado">Organización y Meal preap</span> para evitar desperdicios y cocinar sin estrés</p>
+                </div>
+            </div>
+
+            <div class="cartel-regalo">
+                DELANTAL + RECETARIO FÍSICO DE REGALO
+            </div>
+
+            <div class="carrusel-platos">
+                <div class="plato"><img src="plato1.png" alt="Plato 1"></div>
+                <div class="plato"><img src="plato2.png" alt="Plato 2"></div>
+                <div class="plato"><img src="plato3.png" alt="Plato 3"></div>
+                <div class="plato"><img src="plato4.png" alt="Plato 4"></div>
+            </div>
+
+            <!-- APARTADO DE INVITADOS -->
+            <div class="contenedor-invitados">
+                <h3 class="titulo-seccion-poppins">No voy a estar sola: ¡Vienen mis amigos!</h3>
+                <p class="bajada-invitados">Invitamos a referentes que aman la cocina tanto como vos para que compartan sus mejores secretos</p>
+                
+                <div class="tarjeta-invitados">
+                    <div class="textos-invitados">
+                        <p><strong>Dillom:</strong><br>
+                        "Cuando Paulina me contó la idea de este Workshop en el CEC, no dudé un segundo. Es el evento gastronómico del año y nadie se explica cómo es gratuito. ¡Nos vemos ahí!"</p>
+                        <br>
+                        <p><strong>Juanes:</strong><br>
+                        "Cocinar con Paulina es siempre una fiesta, pero hacerlo en vivo frente a miles de personas es otro nivel. Si quieres aprender técnica de verdad y divertirte, tienes que anotarte ya."</p>
+                    </div>
+                    
+                    <div class="fotos-invitados">
+                        <img src="dillom.png" alt="Dillom" class="foto-circulo dillom">
+                        <img src="juanes.png" alt="Juanes" class="foto-circulo juanes">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fecha" class="seccion-fecha">
+            <h2 class="titulo-seccion-poppins">¿Cuándo y dónde nos <br> encontramos?</h2>
+
+            <div class="contenedor-agenda">
+                <div class="info-evento">
+                    <div class="item-info">
+                        <span class="emoji">🗓️</span>
+                        <p>Sábado 23 de mayo</p>
+                    </div>
+                    <div class="item-info">
+                        <span class="emoji">🕒</span>
+                        <p>14:00 hs</p>
+                    </div>
+                    <div class="item-info">
+                        <span class="emoji">📍</span>
+                        <p>Centro de Convenciones <br> de Buenos Aires (CEC)</p>
+                    </div>
+                </div>
+
+                <div class="cronograma">
+                    <div class="bloque-hora">
+                        <strong>14:00</strong> Check-in & Welcome Kit
+                    </div>
+                    <div class="bloque-hora">
+                        <strong>15:00</strong> Cocina Flash: ¡Chau Delivery!
+                    </div>
+                    <div class="bloque-hora">
+                        <strong>17:30</strong> Técnicas Pro: Cociná como un chef
+                    </div>
+                    <div class="bloque-hora">
+                        <strong>19:00</strong> Preguntas y respuestas
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="anotate" class="seccion-inscripcion">
+            <h2 class="titulo-seccion-poppins">¡Asegurá tu cupo ahora mismo!</h2>
+            <p class="bajada-inscripcion">Completá tus datos acá abajo para reservar tu lugar. Revisá tu mail, ya que ahí te enviaremos tu entrada con el código QR.</p>
+
+            <div id="contenedor-formulario" class="caja-marron">
+                <form id="form-registro">
+                    <input type="text" id="nombre" placeholder="Nombre y apellido" required>
+                    <input type="email" id="email" placeholder="Correo electrónico" required>
+                    <input type="text" id="interes" placeholder="¿Qué querés mejorar?">
+                    <button type="submit" class="boton-enviar">¡Quiero mi entrada!</button>
+                </form>
+            </div>
+
+            <div id="mensaje-feedback" class="mensaje-agradecimiento" style="display: none;"></div>
+        </section>
+    </main>
+
+   <footer class="pie-pagina">
+    <div class="tarjeta-footer">
+        <p class="frase-footer">Cocinando soluciones reales para gente real. Sumate a la comunidad de cocina más grande de Argentina</p>
+        
+        <div class="redes-footer">
+            <p>Seguime para más recetas:</p>
+            <div class="red-item">
+                <img src="youtube-icon.png" alt="YouTube"> <span>Paulina Cocina</span>
+            </div>
+            <div class="red-item">
+                <img src="instagram-icon.png" alt="Instagram"> <span>paulinacocina</span>
+            </div>
+        </div>
+
+        <div class="footer-inferior">
+            <p>Todos los derechos reservados</p>
+            <img src="logo2.png" alt="Logo Paulina Cocina" class="logo-footer">
+        </div>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
